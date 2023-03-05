@@ -5109,4 +5109,23 @@ select {
     .post-comment-section h3 span {
         margin-left: 0px;
     }
+    
 }
+
+@media  screen and (min-width: 1300px) {
+    .map-responsive-big {
+        display: block;
+    }
+    .map-responsive-small {
+        display: none;
+    }
+}
+@media  screen and (max-width: 1299px) {
+    .map-responsive-big {
+        display: none;
+    }
+    .map-responsive-small {
+        display: block;
+    }
+}
+
