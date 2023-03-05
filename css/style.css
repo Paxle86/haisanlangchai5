@@ -1084,7 +1084,8 @@ font-family: 'Gilda Display', serif;
     font-weight: 300;
 }
 .cappa-header .cappa-logo img {
-    width: 160px;
+    width: 80px;
+    opacity: 0.5;
 }
 .cappa-header .social li {
     display: inline-block;
